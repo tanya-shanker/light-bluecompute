@@ -6,6 +6,8 @@ metadata:
     app: webapp
 spec:
   replicas: 1
+  selector:
+    app: webapp
   template:
     metadata:
       name: pod-webapp

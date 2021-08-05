@@ -4,6 +4,8 @@ metadata:
   name: mysql-lightblue-deployment
 spec:
   replicas: 1
+  selector:
+    app: mysql
   template:
     metadata:
       name: pod-mysql
@@ -50,6 +52,8 @@ metadata:
   name: customer-lightblue-deployment
 spec:
   replicas: 1
+  selector:
+    app: customer
   template:
     metadata:
       name: pod-customer
@@ -96,6 +100,8 @@ metadata:
   name: catalog-lightblue-deployment
 spec:
   replicas: 1
+  selector:
+    app: catalog
   template:
     metadata:
       name: pod-catalog
@@ -140,6 +146,8 @@ metadata:
   name: webapp-lightblue-deployment
 spec:
   replicas: 1
+  selector:
+    app: webapp
   template:
     metadata:
       name: pod-webapp

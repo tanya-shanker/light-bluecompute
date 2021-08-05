@@ -4,6 +4,8 @@ metadata:
   name: {{ .Release.Name }}-{{ .Values.service.name }}-deployment
 spec:
   replicas: {{ .Values.replicaCount }}
+  selector:
+    app: mysql
   template:
     metadata:
       name: pod-mysql

@@ -4,6 +4,8 @@ metadata:
   name: {{ .Release.Name }}-{{ .Values.service.name }}-deployment
 spec:
   replicas: 1
+  selector:
+    app: catalog
   template:
     metadata:
       name: pod-catalog

@@ -1,12 +1,12 @@
 dependencies:
 - name: catalog
-  repository: https://raw.githubusercontent.com/ibm-cloud-architecture/light-bluecompute/master/catalog/chart/release
+  repository: https://raw.githubusercontent.com/tanya-shanker/light-bluecompute/master/catalog/chart/release
   version: 0.0.1
 - name: webapp
-  repository: https://raw.githubusercontent.com/ibm-cloud-architecture/light-bluecompute/master/web-app-lite/webapp/chart/release/
+  repository: https://raw.githubusercontent.com/tanya-shanker/light-bluecompute/master/web-app-lite/webapp/chart/release/
   version: 0.0.1
 - name: mysql
-  repository: https://raw.githubusercontent.com/ibm-cloud-architecture/light-bluecompute/master/mysql/chart/release
+  repository: https://raw.githubusercontent.com/tanya-shanker/light-bluecompute/master/mysql/chart/release
   version: 0.0.1
-digest: sha256:dfa46f728947b3972351991ce1d1e5e432854cf9252857fd55c8bdc1f175b92c
-generated: 2019-10-18T15:36:56.31801964-05:00
+digest: sha256:d1283f330038a2f81ba4b6f593054567a0ae2cead1fe9d5a1ba1c648c91ebea3
+generated: "2021-08-05T18:07:37.284843+05:30"
