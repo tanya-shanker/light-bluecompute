@@ -1,10 +1,10 @@
 dependencies:
   - name: catalog
     version: 0.0.1
-    repository: https://github.com/tanya-shanker/light-bluecompute/master/catalog/chart/release
+    repository: https://raw.githubusercontent.com/tanya-shanker/light-bluecompute/master/catalog/chart/release
   - name: webapp
     version: 0.0.1
-    repository: https://github.com/tanya-shanker/light-bluecompute/master/web-app-lite/webapp/chart/release/
+    repository: https://raw.githubusercontent.com/tanya-shanker/light-bluecompute/master/web-app-lite/webapp/chart/release/
   - name: mysql
     version: 0.0.1
-    repository: https://github.com/tanya-shanker/light-bluecompute/master/mysql/chart/release
+    repository: https://raw.githubusercontent.com/tanya-shanker/light-bluecompute/master/mysql/chart/release
