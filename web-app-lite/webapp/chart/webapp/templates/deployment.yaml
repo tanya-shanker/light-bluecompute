@@ -7,7 +7,8 @@ metadata:
 spec:
   replicas: 1
   selector:
-    app: webapp
+    matchLabels:
+      app: webapp
   template:
     metadata:
       name: pod-webapp

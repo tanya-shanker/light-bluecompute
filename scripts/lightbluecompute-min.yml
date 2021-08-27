@@ -5,7 +5,8 @@ metadata:
 spec:
   replicas: 1
   selector:
-    app: mysql
+    matchLabels:
+      app: mysql
   template:
     metadata:
       name: pod-mysql
@@ -53,7 +54,8 @@ metadata:
 spec:
   replicas: 1
   selector:
-    app: customer
+    matchLabels:
+      app: customer
   template:
     metadata:
       name: pod-customer
@@ -101,7 +103,8 @@ metadata:
 spec:
   replicas: 1
   selector:
-    app: catalog
+    matchLabels:
+      app: catalog
   template:
     metadata:
       name: pod-catalog
@@ -147,7 +150,8 @@ metadata:
 spec:
   replicas: 1
   selector:
-    app: webapp
+    matchLabels:
+      app: webapp
   template:
     metadata:
       name: pod-webapp

@@ -5,7 +5,8 @@ metadata:
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
-    app: mysql
+    matchLabels:
+      app: mysql
   template:
     metadata:
       name: pod-mysql

@@ -5,7 +5,8 @@ metadata:
 spec:
   replicas: 1
   selector:
-    app: catalog
+    matchLabels:
+      app: catalog
   template:
     metadata:
       name: pod-catalog
